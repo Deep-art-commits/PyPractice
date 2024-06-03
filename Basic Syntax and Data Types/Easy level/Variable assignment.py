@@ -6,7 +6,11 @@ while True:
     x=input("Enter a number: ")
     if x.isdigit():
         x=int(x)
-        print(f"Entered number is : {x} and datatype is {type(x)}")
+        print(f"Entered number is : {x} ")
         break
     else:
         print("Try again") 
+import os
+from time import sleep
+sleep(3)
+os.system("cls")        
