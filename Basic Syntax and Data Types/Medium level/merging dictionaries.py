@@ -2,10 +2,10 @@
 user_dict={}
 ud={}
 final={}
-n1=int(input("How many dictionaries you want to create "))
+n1=int(input("How many dictionaries do you want to create ? "))
 for i in range(1,n1+1):
     
-    a=int(input(f"How many Enteries  you want {i} dictiory:  "))
+    a=int(input(f"How many Enteries do you want {i} dictionary ?:  "))
     
     for j in range(1,a+1):
         key=input("Enter Key :")
@@ -16,7 +16,7 @@ for i in range(1,n1+1):
     final.update(ud[i])
 print(f"The entered dictionaries are : {ud}\nMerged dictionary is :{final}")    
         
-# import os
-# from time import sleep
-# sleep(3)
-# os.system('cls')          
+import os
+from time import sleep
+sleep(3)
+os.system('cls')          
