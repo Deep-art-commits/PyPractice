@@ -13,6 +13,3 @@ import os
 from time import sleep
 sleep(5)
 os.system('cls') 
-    
-        
-    
