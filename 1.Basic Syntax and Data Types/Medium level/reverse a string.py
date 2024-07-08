@@ -8,7 +8,7 @@ s=input_str.split()
 rev_str=[]
 for i in s:
     rev_str.append(i[::-1])
-print(" ".join(rev_str))  
+print(" ".join(rev_str[::-1]))  
 import os 
 from time import sleep
 sleep(5)
