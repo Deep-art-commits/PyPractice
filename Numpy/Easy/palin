@@ -9,6 +9,3 @@ num=int(input("Enter a number:"))
 #     print("The number is palindrome!")
 # else:
 #     print("Not a palindrome!")
-print(num%10)
-print(num/10)
-print(num//10)
