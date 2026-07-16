@@ -1,0 +1,23 @@
+Raw data is inconsistent and may have null values 
+reasons - data collection errors
+
+Missing completely at random - Missing Completely at random is a type 
+of missing data mechanism in which the probability of 
+a value being missing is unrelated to both missing data and observed data 
+
+Missing at random - the probability of a value being missing is dependent on the observed data not on missing value 
+MAR- eg ,income details on a survey , disability details on application forms 
+
+MNAR= Missing not at random-- probability of missing value depends on 
+the missing data itself 
+
+imputation techniques
+1.Mean value imputation - used when we have normally distributed data 
+2.median value imputation - if we have outliers in the dataset ,right or left skewed 
+3 . Mode imputation - Categorical values 
+4. random sampling imputation 
+
+Handling Imbalance dataset 
+
+1, up sampling '
+2. down sampling 
